@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Monopoly_Commandline
 {
-    class Spieler
+    public class Spieler
     {
         private Figur Figur { get; set; }
         private int Kontostand { get; set; }
