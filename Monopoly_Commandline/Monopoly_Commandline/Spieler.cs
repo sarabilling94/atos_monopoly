@@ -6,10 +6,10 @@ namespace Monopoly_Commandline
 {
     public class Spieler
     {
-        private Figur Figur { get; set; }
-        private int Kontostand { get; set; }
+        public Figur Figur { get; set; }
+        public int Kontostand { get; set; }
 
-        private int Position { get; set; }
+        public int Position { get; set; }
 
         public Spieler(Figur figur, int kontostand, int position)
         {
