@@ -1,2 +1,5 @@
-.cache
-.lref
+*.cache
+*.lref
+.vs/*
+Debug/
+Release/
