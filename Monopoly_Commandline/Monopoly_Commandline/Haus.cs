@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Monopoly_Commandline
 {
-    class Haus
+    public class Haus:IFeld
     {
         public string Name { get; set; }
         public int Preis { get; set; }
@@ -16,6 +16,16 @@ namespace Monopoly_Commandline
             this.Name = inName;
             this.Preis = inPreis;
             this.Miete = inMiete;
+        }
+
+        public void handeln(Spieler spieler)
+        {
+
+        }
+
+        public String getTypus()
+        {
+            return "haus";
         }
     }
 }

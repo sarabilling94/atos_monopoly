@@ -7,6 +7,7 @@ namespace Monopoly_Commandline
         static void Main(string[] args)
         {
 
+            Logik l = new Logik();
         }
 
     }

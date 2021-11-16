@@ -24,3 +24,4 @@ C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Comman
 C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.dll
 C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.pdb
 C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.genruntimeconfig.cache
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.csproj.AssemblyReference.cache

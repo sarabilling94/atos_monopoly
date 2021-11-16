@@ -1,23 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<hausListe>
+<feldListe>
+
+	<startfeld>
+		<gewinn>2000</gewinn>
+	</startfeld>
+
 	<haus>
-		<name>testHaus</name>
-		<preis>0</preis>
-		<miete>10</miete>
+		<name>Sihlcity</name>
+		<preis>2000</preis>
+		<miete>75</miete>
 	</haus>
 
 	<haus>
-		<name>testHaus2</name>
-		<preis>5</preis>
-		<miete>50</miete>
+		<name>Kunsthaus Zürich</name>
+		<preis>5500</preis>
+		<miete>250</miete>
 	</haus>
+
+	<gefaengnis>
+		<anzTage>2</anzTage>
+	</gefaengnis>
 
 	<haus>
-		<name>testHaus3</name>
-		<preis>100</preis>
-		<miete>0</miete>
+		<name>Prime Tower</name>
+		<preis>8000</preis>
+		<miete>500</miete>
 	</haus>
 
+	<toPrison>
 
-</hausListe>
+	</toPrison>
+
+
+</feldListe>
