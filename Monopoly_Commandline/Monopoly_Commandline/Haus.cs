@@ -25,7 +25,7 @@ namespace Monopoly_Commandline
 
         public String getTypus()
         {
-            return "haus";
+            return Name;
         }
     }
 }

@@ -20,6 +20,7 @@ namespace Monopoly_Commandline
             this.Kontostand = kontostand;
             this.Position = position;
             houseList = new List<Haus>();
+            inPrison = false;
 
         }  
     }

@@ -27,6 +27,7 @@ namespace Monopoly_Commandline
                 if (gefängnisLog[spieler.Figur.Bezeichnung] == 0)
                 {
                     spieler.inPrison = false;
+                    gefängnisLog.Remove(spieler.Figur.Bezeichnung);
                 }
             }
 

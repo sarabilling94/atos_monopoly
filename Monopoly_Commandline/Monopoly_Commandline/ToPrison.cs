@@ -16,6 +16,7 @@ namespace Monopoly_Commandline
         public void handeln(Spieler s)
         {
             s.Position = PrisonIndex;
+            Console.WriteLine("Direkt ins Gefängnis!");
             s.inPrison = true;
         }
 
