@@ -6,7 +6,7 @@ namespace Monopoly_Commandline
 {
     class Figur
     {
-        private string Bezeichnung;
+        public string Bezeichnung;
 
         public Figur(string bezeichnung)
         {

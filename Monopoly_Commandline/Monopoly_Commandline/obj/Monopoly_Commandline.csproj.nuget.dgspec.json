@@ -1,34 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mert Maraslioglu\\Atos-stuff\\Abteilung\\Programmierprojekte\\Monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj": {}
+    "C:\\Users\\a814887\\source\\repos\\atos_monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj": {}
   },
   "projects": {
-    "C:\\Mert Maraslioglu\\Atos-stuff\\Abteilung\\Programmierprojekte\\Monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj": {
+    "C:\\Users\\a814887\\source\\repos\\atos_monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mert Maraslioglu\\Atos-stuff\\Abteilung\\Programmierprojekte\\Monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj",
+        "projectUniqueName": "C:\\Users\\a814887\\source\\repos\\atos_monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj",
         "projectName": "Monopoly_Commandline",
-        "projectPath": "C:\\Mert Maraslioglu\\Atos-stuff\\Abteilung\\Programmierprojekte\\Monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj",
-        "packagesPath": "C:\\Users\\a821244\\.nuget\\packages\\",
-        "outputPath": "C:\\Mert Maraslioglu\\Atos-stuff\\Abteilung\\Programmierprojekte\\Monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\obj\\",
+        "projectPath": "C:\\Users\\a814887\\source\\repos\\atos_monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\Monopoly_Commandline.csproj",
+        "packagesPath": "C:\\Users\\a814887\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a814887\\source\\repos\\atos_monopoly\\Monopoly_Commandline\\Monopoly_Commandline\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\a821244\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\a814887\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
