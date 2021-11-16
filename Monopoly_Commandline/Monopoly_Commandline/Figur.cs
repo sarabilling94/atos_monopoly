@@ -6,11 +6,12 @@ namespace Monopoly_Commandline
 {
     class Figur
     {
-        private string Bezeichnung;
+        public string Bezeichnung { get; set; }
 
         public Figur(string bezeichnung)
         {
             this.Bezeichnung = bezeichnung;
         }
+
     }
 }
