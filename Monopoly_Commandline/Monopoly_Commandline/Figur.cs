@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Monopoly_Commandline
 {
-    class Figur
+    public class Figur
     {
         public string Bezeichnung { get; set; }
 
