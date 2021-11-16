@@ -11,3 +11,16 @@ C:\module\atosprogramm\github\Monopoly_Commandline\Monopoly_Commandline\obj\Debu
 C:\module\atosprogramm\github\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.dll
 C:\module\atosprogramm\github\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.pdb
 C:\module\atosprogramm\github\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.genruntimeconfig.cache
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.AssemblyInfoInputs.cache
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.AssemblyInfo.cs
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.csproj.CoreCompileInputs.cache
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.dll
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.pdb
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.exe
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.deps.json
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.runtimeconfig.json
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.runtimeconfig.dev.json
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.dll
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\bin\Debug\netcoreapp3.1\Monopoly_Commandline.pdb
+C:\Users\a814887\source\repos\atos_monopoly\Monopoly_Commandline\Monopoly_Commandline\obj\Debug\netcoreapp3.1\Monopoly_Commandline.genruntimeconfig.cache

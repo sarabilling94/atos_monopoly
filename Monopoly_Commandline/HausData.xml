@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hausListe>
+	<haus>
+		<name>testHaus</name>
+		<preis>0</preis>
+		<miete>10</miete>
+	</haus>
+
+	<haus>
+		<name>testHaus2</name>
+		<preis>5</preis>
+		<miete>50</miete>
+	</haus>
+
+	<haus>
+		<name>testHaus3</name>
+		<preis>100</preis>
+		<miete>0</miete>
+	</haus>
+
+
+</hausListe>
