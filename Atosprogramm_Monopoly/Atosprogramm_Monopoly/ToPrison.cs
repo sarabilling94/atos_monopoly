@@ -15,7 +15,7 @@ namespace Atosprogramm_Monopoly
         {
             this.PrisonIndex = inPrisonIndex;
         }
-        public void handeln(Spieler s)
+        public void Handeln(Spieler s)
         {
             s.Position = PrisonIndex;
             Console.WriteLine("Direkt ins Gefängnis!");

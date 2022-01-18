@@ -13,7 +13,7 @@ namespace Atosprogramm_Monopoly
             this.Gewinn = inGewinn;
         }
 
-        public void handeln(Spieler spieler)
+        public void Handeln(Spieler spieler)
         {
             spieler.Kontostand += Gewinn;
 

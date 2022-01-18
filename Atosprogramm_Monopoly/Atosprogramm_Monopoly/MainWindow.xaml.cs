@@ -24,5 +24,10 @@ namespace Atosprogramm_Monopoly
         {
             InitializeComponent();
         }
+
+        private void button_dice_Click(object sender, RoutedEventArgs e)
+        {
+            result_dice.Text = Wuerfel.Wuerfeln().ToString();
+        }
     }
 }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Atosprogramm_Monopoly
 {
-    interface IFeld
+    public interface IFeld
     {
-        public void handeln(Spieler s);
-
-        public String getTypus();
+        void Handeln(Spieler s);
+        
+        string getTypus();
     }
 }

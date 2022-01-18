@@ -22,14 +22,14 @@ namespace Atosprogramm_Monopoly
                 Console.WriteLine("Ursprünglicher Kontostand: " + currentSpieler.Value.Kontostand);
                 spielerList.RemoveFirst();
                 spielerList.AddLast(currentSpieler);
-                würfeln(currentSpieler.Value);
+                wuerfeln(currentSpieler.Value);
             }
         }
 
-        private void würfeln(Spieler spi)
+        private void wuerfeln(Spieler spi)
         {
-            int result1 = Würfel.Würfeln();
-            int result2 = Würfel.Würfeln();
+            int result1 = Wuerfel.Wuerfeln();
+            int result2 = Wuerfel.Wuerfeln();
             Console.WriteLine("Würfeln?");
             Console.ReadKey();
             Thread.Sleep(500);
