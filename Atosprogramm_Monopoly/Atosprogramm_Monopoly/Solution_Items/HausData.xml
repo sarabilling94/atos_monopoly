@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<feldListe>
+
+	<startfeld>
+		<gewinn>2000</gewinn>
+	</startfeld>
+
+	<haus>
+		<name>Sihlcity</name>
+		<preis>2000</preis>
+		<miete>75</miete>
+	</haus>
+
+	<haus>
+		<name>Kunsthaus Zürich</name>
+		<preis>5500</preis>
+		<miete>250</miete>
+	</haus>
+
+	<gefaengnis>
+		<anzTage>2</anzTage>
+	</gefaengnis>
+
+	<haus>
+		<name>Prime Tower</name>
+		<preis>8000</preis>
+		<miete>500</miete>
+	</haus>
+
+	<toPrison>
+
+	</toPrison>
+
+
+</feldListe>

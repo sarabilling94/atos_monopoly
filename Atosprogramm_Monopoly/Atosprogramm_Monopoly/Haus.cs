@@ -23,7 +23,7 @@ namespace Atosprogramm_Monopoly
             this.gekauft = false;
         }
 
-        public void handeln(Spieler spieler)
+        public void Handeln(Spieler spieler)
         {
             if (!gekauft)
             {

@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Spieler.cs" />
+    <Compile Include="Spielfeld.cs" />
+    <Compile Include="Startfeld.cs" />
+    <Compile Include="ToPrison.cs" />
+    <Compile Include="Wuerfel.cs" />
+    <Compile Include="XMLImporter.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,6 +69,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Feld.cs" />
+    <Compile Include="Figur.cs" />
+    <Compile Include="Gefaengnis.cs" />
+    <Compile Include="Haus.cs" />
+    <Compile Include="IFeld.cs" />
+    <Compile Include="Logik.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -93,6 +105,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Solution_Items\HausData.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

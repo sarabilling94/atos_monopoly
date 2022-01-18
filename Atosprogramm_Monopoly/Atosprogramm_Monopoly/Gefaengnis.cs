@@ -17,7 +17,7 @@ namespace Atosprogramm_Monopoly
             gefängnisLog = new Dictionary<string, int>();
         }
 
-        public void handeln(Spieler spieler)
+        public void Handeln(Spieler spieler)
         {
             if (!gefängnisLog.ContainsKey(spieler.Figur.Bezeichnung))
             {

@@ -13,7 +13,7 @@ namespace Atosprogramm_Monopoly
 
         public void handeln(Spieler s)
         {
-            inhalt.handeln(s);
+            inhalt.Handeln(s);
         }
 
     }
