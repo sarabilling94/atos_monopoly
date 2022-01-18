@@ -15,7 +15,7 @@ namespace Atosprogramm_Monopoly
 
         public void Handeln(Spieler spieler)
         {
-            spieler.Kontostand += Gewinn;
+            spieler.kontostand += Gewinn;
 
         }
         public String getTypus()

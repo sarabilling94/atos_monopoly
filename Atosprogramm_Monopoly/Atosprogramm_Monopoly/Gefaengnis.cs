@@ -19,18 +19,18 @@ namespace Atosprogramm_Monopoly
 
         public void Handeln(Spieler spieler)
         {
-            if (!gefängnisLog.ContainsKey(spieler.Figur.Bezeichnung))
+            if (!gefängnisLog.ContainsKey(spieler.figur.Bezeichnung))
             {
-                gefängnisLog.Add(spieler.Figur.Bezeichnung, AnzTage);
-                gefängnisLog[spieler.Figur.Bezeichnung]--;
+                gefängnisLog.Add(spieler.figur.Bezeichnung, AnzTage);
+                gefängnisLog[spieler.figur.Bezeichnung]--;
             }
             else
             {
-                gefängnisLog[spieler.Figur.Bezeichnung]--;
-                if (gefängnisLog[spieler.Figur.Bezeichnung] == 0)
+                gefängnisLog[spieler.figur.Bezeichnung]--;
+                if (gefängnisLog[spieler.figur.Bezeichnung] == 0)
                 {
                     spieler.inPrison = false;
-                    gefängnisLog.Remove(spieler.Figur.Bezeichnung);
+                    gefängnisLog.Remove(spieler.figur.Bezeichnung);
                 }
             }
 

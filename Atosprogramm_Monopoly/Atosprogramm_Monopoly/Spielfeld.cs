@@ -19,7 +19,7 @@ namespace Atosprogramm_Monopoly
             while (true)
             {
                 var currentSpieler = spielerList.First;
-                Console.WriteLine("Ursprünglicher Kontostand: " + currentSpieler.Value.Kontostand);
+                Console.WriteLine("Ursprünglicher Kontostand: " + currentSpieler.Value.kontostand);
                 spielerList.RemoveFirst();
                 spielerList.AddLast(currentSpieler);
                 wuerfeln(currentSpieler.Value);
@@ -38,33 +38,33 @@ namespace Atosprogramm_Monopoly
             Console.ReadKey();
             Thread.Sleep(500);
             Console.WriteLine(result2);
-            if (spielFeld[spi.Position].inhalt.getTypus().Equals("gefaengnis") && spi.inPrison)
+            if (spielFeld[spi.position].inhalt.getTypus().Equals("gefaengnis") && spi.inPrison)
             {
-                spielFeld[spi.Position].handeln(spi);
+                spielFeld[spi.position].handeln(spi);
             }
             else
             {
                 for (int i = 0; i < (result1 + result2); i++)
                 {
-                    if (spi.Position == spielFeld.Count - 1)
+                    if (spi.position == spielFeld.Count - 1)
                     {
-                        spi.Position = 0;
+                        spi.position = 0;
                         spielFeld[0].handeln(spi);
                     }
                     else
                     {
-                        spi.Position += 1;
+                        spi.position += 1;
                     }
                 }
 
-                if (!spielFeld[spi.Position].inhalt.getTypus().Equals("startfeld"))
+                if (!spielFeld[spi.position].inhalt.getTypus().Equals("startfeld"))
                 {
-                    spielFeld[spi.Position].handeln(spi);
+                    spielFeld[spi.position].handeln(spi);
                 }
-                Console.WriteLine("Endgültiger Kontostand: " + spi.Kontostand);
+                Console.WriteLine("Endgültiger Kontostand: " + spi.kontostand);
             }
 
-            Console.WriteLine("Der Spieler ist jetzt bei: " + spielFeld[spi.Position].inhalt.getTypus());
+            Console.WriteLine("Der Spieler ist jetzt bei: " + spielFeld[spi.position].inhalt.getTypus());
         }
     }
 }
