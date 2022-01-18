@@ -109,5 +109,12 @@
   <ItemGroup>
     <Resource Include="Solution_Items\HausData.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Wuerfel.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Field_Platzhalter.png" />
+    <Resource Include="Media\Field_Prison.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

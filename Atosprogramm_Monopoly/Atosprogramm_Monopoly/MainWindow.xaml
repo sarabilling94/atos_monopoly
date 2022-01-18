@@ -27,5 +27,38 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+        
+        <Rectangle Panel.ZIndex="-1" Grid.ColumnSpan="8" Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="280" Grid.Row="1" Grid.RowSpan="4" Stroke="Black" VerticalAlignment="Top" Width="633"/>
+        <Image Grid.Column="0" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="0" Grid.Row="1" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="0" Grid.Row="2" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="0" Grid.Row="3" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="0" Grid.Row="4" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="0" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="1" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="2" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="3" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="4" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="5" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="6" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="7" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="8" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="9" Grid.Row="0" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="9" Grid.Row="1" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="9" Grid.Row="2" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="9" Grid.Row="3" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="9" Grid.Row="4" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="9" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="1" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="2" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="3" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="4" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="5" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="6" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="7" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+        <Image Grid.Column="8" Grid.Row="5" Source="/Media/Field_Platzhalter.png"/>
+
+        <Button x:Name="button_dice" Click="button_dice_Click" Grid.Column="2" Grid.Row="2">Würfeln</Button>
+        <TextBlock x:Name="result_dice" Grid.Column="2" Grid.Row="3" Background="White" FontSize="40" TextAlignment="Center"></TextBlock>
     </Grid>
 </Window>
