@@ -38,33 +38,33 @@ namespace Atosprogramm_Monopoly
             Console.ReadKey();
             Thread.Sleep(500);
             Console.WriteLine(result2);
-            if (spielFeld[spi.position].inhalt.getTypus().Equals("gefaengnis") && spi.inPrison)
+            if (spielFeld[spi.position.getPosition()].inhalt.getTypus().Equals("gefaengnis") && spi.inPrison)
             {
-                spielFeld[spi.position].handeln(spi);
+                spielFeld[spi.position.getPosition()].handeln(spi);
             }
             else
             {
                 for (int i = 0; i < (result1 + result2); i++)
                 {
-                    if (spi.position == spielFeld.Count - 1)
+                    if (spi.position.getPosition() == spielFeld.Count - 1)
                     {
-                        spi.position = 0;
+                        spi.position.setPosition(0);
                         spielFeld[0].handeln(spi);
                     }
                     else
                     {
-                        spi.position += 1;
+                        spi.position.setPosition(spi.position.getPosition() + 1);
                     }
                 }
 
-                if (!spielFeld[spi.position].inhalt.getTypus().Equals("startfeld"))
+                if (!spielFeld[spi.position.getPosition()].inhalt.getTypus().Equals("startfeld"))
                 {
-                    spielFeld[spi.position].handeln(spi);
+                    spielFeld[spi.position.getPosition()].handeln(spi);
                 }
                 Console.WriteLine("Endgültiger Kontostand: " + spi.kontostand);
             }
 
-            Console.WriteLine("Der Spieler ist jetzt bei: " + spielFeld[spi.position].inhalt.getTypus());
+            Console.WriteLine("Der Spieler ist jetzt bei: " + spielFeld[spi.position.getPosition()].inhalt.getTypus());
         }
     }
 }

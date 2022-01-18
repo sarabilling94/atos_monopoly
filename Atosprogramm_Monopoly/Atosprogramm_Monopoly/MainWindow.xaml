@@ -69,5 +69,7 @@
 
         <TextBlock x:Name="txt_playeramount" TextWrapping="WrapWithOverflow" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2" Background="White" Visibility="Hidden" >Anzahl Spieler 1-4 eingeben und Start drücken.</TextBlock>
         <TextBox x:Name="txtbox_playeramount" Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="2" Visibility="Hidden"></TextBox>
+
+        <Image Grid.Column="{Binding Path=BoundColumn, Mode=TwoWay}" Grid.Row="{Binding Path=BoundRow, Mode=TwoWay}" x:Name="img_player1" Source="/Media/Player1.png" Visibility="Hidden"></Image>
     </Grid>
 </Window>

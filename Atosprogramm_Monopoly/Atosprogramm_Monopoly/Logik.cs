@@ -13,7 +13,7 @@ namespace Atosprogramm_Monopoly
 
         public Logik()
         {
-            Spieler mert = new Spieler(new Figur("hase"), 2000, 0);
+            Spieler mert = new Spieler(1, new Figur("hase"), 2000, new Position(0, 0, 5));
             LinkedList<Spieler> spielerList = new LinkedList<Spieler>();
             spielerList.AddFirst(mert);
             spielfeld = new Spielfeld(spielerList);
